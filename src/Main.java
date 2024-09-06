@@ -5,7 +5,7 @@ public class Main {
         System.out.println(getEvenDigitSum(-22));
     }
 
-    private static int getEvenDigitSum(int number) {
+    public static int getEvenDigitSum(int number) {
         if (number < 0){
             return -1;
         }
